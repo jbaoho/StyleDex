@@ -1,0 +1,14 @@
+Anything that you want to use that does not change:
+i.e. CSS, images, js files
+put in this folder and call upon to use
+
+This is how to integrate javascript into the application
+
+then inside of html file load in by doing
+<script
+    type="text/javascript"
+    src="{{ url_for('static', filename='filename.js') }}"
+></script>
+
+url_for is a python function that loads url for the satic folder
+{{ }} allows to write a python expression (function, var, etc.) that will be evaluated

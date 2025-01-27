@@ -47,15 +47,48 @@ content %}
         </div>
 
         <div class="form-group">
-          <label for="color">Color</label>
-          <input
-            type="text"
-            id="color"
-            name="color"
+          <label for="colorSelect">Select Color</label>
+          <select
+            id="colorSelect"
             class="form-control"
-            placeholder="Enter color"
-            required
-          />
+            name="color"
+            style="width: 150px"
+          >
+            <option value="gray" style="background-color: gray">Gray</option>
+            <option value="black" style="background-color: black; color: white">
+              Black
+            </option>
+            <option value="green" style="background-color: green; color: white">
+              Green
+            </option>
+            <option value="blue" style="background-color: blue; color: white">
+              Blue
+            </option>
+            <option
+              value="purple"
+              style="background-color: purple; color: white"
+            >
+              Purple
+            </option>
+            <option value="red" style="background-color: red; color: white">
+              Red
+            </option>
+            <option value="yellow" style="background-color: yellow">
+              Yellow
+            </option>
+            <option value="white" style="background-color: white; color: black">
+              White
+            </option>
+            <option value="brown" style="background-color: brown; color: white">
+              Brown
+            </option>
+            <option
+              value="multicolor"
+              style="background-image: url('your_multicolor_pattern_image_url')"
+            >
+              Multicolor
+            </option>
+          </select>
         </div>
 
         <div class="form-group">
